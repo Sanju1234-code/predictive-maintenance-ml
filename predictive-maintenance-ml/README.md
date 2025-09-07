@@ -2,7 +2,7 @@
 
 A production‑minded ML project suitable for a **3‑year experience** portfolio. It predicts whether a machine will **fail in the next hour** from sensor telemetry.
 
-## Highlights (resume‑friendly)
+## Highlights 
 - Clean **src/** layout with modular scripts (data → features → train → predict).
 - **Reproducible**: `Makefile` and simple commands.
 - **FastAPI** inference API and **Streamlit** demo app.
@@ -11,7 +11,7 @@ A production‑minded ML project suitable for a **3‑year experience** portfoli
 - **GitHub Actions CI** (runs tests on push).
 - Small synthetic dataset included; no downloads required.
 
-## Quickstart
+## STEPS:
 
 ### 1) Create and activate a virtual environment
 **Windows (PowerShell):**
@@ -81,11 +81,4 @@ predictive-maintenance-ml/
 └─ .github/workflows/ci.yml
 ```
 
-## What to talk about in interviews
-- Problem framing (early failure warning) and **label definition** (failure in next hour using forward shift).
-- **Feature engineering**: rolling means/std, deltas, recent context windows.
-- **Imbalanced classification** strategy (class_weight='balanced', evaluation with ROC‑AUC/PR‑AUC).
-- **Pipeline** design, versioned artifacts, API + UI demo, and basic CI.
 
-## License
-MIT
