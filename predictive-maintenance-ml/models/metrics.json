@@ -1,0 +1,5 @@
+{
+  "roc_auc": 0.5294073175184442,
+  "pr_auc": 0.2620225871639486,
+  "report": "              precision    recall  f1-score   support\n\n           0       0.77      1.00      0.87      2755\n           1       0.00      0.00      0.00       845\n\n    accuracy                           0.77      3600\n   macro avg       0.38      0.50      0.43      3600\nweighted avg       0.59      0.77      0.66      3600\n"
+}
