@@ -1,0 +1,11 @@
+# ignore virtual envs (both possible locations)
+.venv/
+predictive-maintenance-ml/.venv/
+
+# python junk
+**/__pycache__/
+*.pyc
+
+# generated outputs
+data/predictions/
+predictive-maintenance-ml/data/predictions/
